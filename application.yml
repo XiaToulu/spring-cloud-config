@@ -1,6 +1,7 @@
 spring: 
   profiles:
     active: dev
+---
 server:
   port: 8201
 spring:
@@ -8,7 +9,7 @@ spring:
   application: 
     name: spring-cloud-config-client
 content: hello dev
-
+---
 server:
   port: 8202
 spring:
