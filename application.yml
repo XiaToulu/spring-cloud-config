@@ -15,4 +15,4 @@ spring:
   profiles: test
   application:
     name: spring-cloud-config-client
- content: hello test2256
+content: hello test2256
