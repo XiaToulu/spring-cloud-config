@@ -1,18 +1,18 @@
 spring: 
-  profiles:
-    active: dev
+    profiles:
+        active: dev
 server:
-  port: 8201
+    port: 8201
 spring:
-  profile: dev
-  application: 
-    name: spring-cloud-config-client
+    profile: dev
+    application: 
+      name: spring-cloud-config-client
 content: hello dev
 
 server:
-  port: 8202
+    port: 8202
 spring:
-  profiles: test
-  application:
-    name: spring-cloud-config-client
+    profiles: test
+    application:
+      name: spring-cloud-config-client
 content: hello test2256
