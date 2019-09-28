@@ -16,7 +16,7 @@ spring:
     #    Application名称
     name: eureka-provider
     
-content: hello provider dev
+content: hello
 
 management:
   server:
