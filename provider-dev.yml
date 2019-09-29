@@ -1,5 +1,8 @@
 server:
   port: 6001
+      
+content: hello provider dev
+
 eureka:
   client:
     service-url:
@@ -15,8 +18,7 @@ spring:
   application:
     #    Application名称
     name: eureka-provider
-    
-content: hello provider dev
+
 
 management:
   server:
